@@ -1,22 +1,56 @@
-.App {
-  text-align: center;
+:root {
+  /* main colors to be used throughout files */
+  --mainBlue: #2a2a72;
+  --lightBlue: #009ffd;
+  --mainWhite: #f3f3f3;
+  --mainDark: #232528;
+  --mainYellow: #ffa400;
 }
 
-.App-logo {
-  height: 40vmin;
+body {
+  font-family: 'Exo 2', sans-serif !important;
+  background: var(--mainWhite) !important;
+  color: var(--mainDark) !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.text-title {
+  font-family: 'Turret Road', cursive !important;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
 }
 
-.App-link {
-  color: #09d3ac;
+.text-blue{
+  color: var(--mainBlue);
+}
+
+.text-yellow {
+  color: var(--mainYellow);
+}
+
+.text-bright {
+  color: var(--lightBlue);
+}
+
+.text-white {
+  color: var(--mainWhite);
+}
+
+.btn-black{
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 0.8rem !important;
+  color: var(--mainDark);
+  border-radius: 0 !important;
+  border: 0.1rem solid var(--mainDark) !important;
+}
+
+.btn-black:hover {
+  background: var(--mainDark) !important;
+  color: var(--mainWhite) !important;
+}
+
+.cart-icon{
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: var(--mainYellow);
 }

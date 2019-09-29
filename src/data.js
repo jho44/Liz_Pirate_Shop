@@ -1,0 +1,82 @@
+// products data
+
+export const storeProducts = [
+    {
+      id: 1,
+      title: "Star Wars Episode IV DVD",
+      img: "img/IV_DVD.jpg",
+      price: 20,
+      company: "Lucasfilm Ltd.",
+      inCart: false,
+      type: "DVD",
+      count: 0,
+      total: 0, 
+    },
+    {
+      id: 2,
+      title: "Star Wars Episode V DVD",
+      img: "img/V_DVD.jpg",
+      price: 20,
+      company: "Lucasfilm Ltd.",
+      inCart: false,
+      type: "DVD",
+      count: 0,
+      total: 0,
+    },
+    {
+      id: 3,
+      title: "Star Wars Episode VI DVD",
+      img: "img/VI_DVD.jpg",
+      price: 20,
+      company: "Lucasfilm Ltd.",
+      inCart: false,
+      type: "DVD",
+      count: 0,
+      total: 0,
+    },
+    {
+      id: 4,
+      title: "Star Wars Episode IV Blu-Ray",
+      img: "img/IV_Blu-Ray.jpg",
+      price: 25,
+      company: "Lucasfilm Ltd.",
+      inCart: false,
+      type: "Blu-Ray",
+      count: 0,
+      total: 0,
+    },
+    {
+      id: 5,
+      title: "Star Wars Episode V Blu-Ray",
+      img: "img/V_Blu-Ray.jpg",
+      price: 25,
+      company: "Lucasfilm Ltd.",
+      inCart: false,
+      type: "Blu-Ray",
+      count: 0,
+      total: 0,
+    },
+    {
+      id: 6,
+      title: "Star Wars Episode VI Blu-Ray",
+      img: "img/VI_Blu-Ray.jpg",
+      price: 25,
+      company: "Lucasfilm Ltd.",
+      inCart: false,
+      type: "Blu-Ray",
+      count: 0,
+      total: 0,
+    },
+  ];
+  
+  // doesn't actually ever see the light of day but serves as placeholder in context.js
+  export const detailProduct = {
+    id: 1,
+    title: "Google Pixel - Black",
+    img: "img/product-1.png",
+    price: 10,
+    company: "google",
+    inCart: false,
+    count: 0,
+    total: 0
+  };
