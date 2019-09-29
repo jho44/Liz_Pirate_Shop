@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 1. Open terminal
 2. ```cd Desktop```
 3. Clone the repo with ```git clone https://github.com/jho44/Liz_Pirate_Shop.git```
-4. ```cd pirate_shop```
+4. ```cd Liz_Pirate_Shop```
 5. Install dependencies with ```npm install```
 6. Start the website in browser with ```npm start```
 
